@@ -54,7 +54,7 @@ function getOptions(matrix, row, col) {
         }
     }
 
-    for ( k = 0; k < 9; k++ ) {
+    for ( let k = 0; k < 9; k++ ) {
         if ( matrix[k][col] > 0 ) {
             if ( guess.indexOf(matrix[k][col]) !== -1 ) {
                 guess.splice(guess.indexOf(matrix[k][col]), 1);
